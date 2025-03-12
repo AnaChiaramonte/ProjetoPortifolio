@@ -1,0 +1,29 @@
+li{
+    list-style: none;
+}
+li a {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    
+    border: 1px solid #838383;
+    border-radius: 8px;
+    background: #3f3f3f;
+    width: 300px;
+    height: 15px;
+
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+ list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+li a:hover{
+     
+    background: var(--surface-color-hover);
+    border:1px solid var#727272;
+}

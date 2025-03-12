@@ -1,0 +1,30 @@
+#switch {
+    position: relative;
+    width: 64px;
+    margin: 10px auto;
+  
+    & button {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 0;
+   
+  
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+     
+    }
+  
+    
+    & span {
+      display: block;
+      width: 64px;
+      height: 24px;
+      background: var(--surface-color);
+      border: 1px solid #fff;
+      border-radius: 999px;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+  }
