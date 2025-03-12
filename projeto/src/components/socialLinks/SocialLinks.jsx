@@ -1,4 +1,4 @@
-import Styles from './SocialLinks.module.css'
+import styles from './SocialLinks.module.css'
 
 const SocialLinks = (props) => {
   return (

@@ -4,20 +4,25 @@ import Links from "./components/links/Links";
 import Footer from "./components/footer/Footer";
 import SocialLinks from "./components/socialLinks/SocialLinks";
 import SobreMim from "./components/sobreMim/SobreMim";
-import { useState } from "react";
+import fotoPerfil from "./img/eumesma.png";
 
 const App = () => {
-  const [texto, setTexto] = useState(true);
-
   return (
     <div id="App">
-      <Perfil>@Ana Clara Chiaramonte Lopes</Perfil>
-      <SobreMim texto={"texto"} />
+      <Perfil fotoPerfil={fotoPerfil}>@Ana Clara Chiaramonte Lopes</Perfil>
+      <SobreMim />
 
       <div id="container">
         <ul>
-          <Links link={"https://Youtube.com/"}>Projetos</Links>
-          <Links link={"https://linkedin.com/"}>Contato </Links>
+          <Links
+            links={
+              "https://www.educamaisbrasil.com.br/educacao/carreira/psicologia-criminal-o-que-e-e-como-atuar-na-areahttps://Youtube.com/"
+            }
+          >
+            {" "}
+            Projetos{" "}
+          </Links>
+          <Links links={"https://wa.link/9m17tw"}>Contato </Links>
         </ul>
       </div>
       <div id="socialLinks">
@@ -29,8 +34,11 @@ const App = () => {
           link={"https://Insagram.com/anaaalopeess"}
           icon={"logo-Instagram"}
         />
+        <SocialLinks link={"https://Youtube.com/"} icon={"logo-youtube"} />
+        <SocialLinks link={"https://linkedin.com/"} icon={"logo-linkedin"} />
       </div>
-      <Footer>Ane Leure</Footer>
+
+      <Footer> Ane Leure</Footer>
     </div>
   );
 };
