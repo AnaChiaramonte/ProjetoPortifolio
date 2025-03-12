@@ -4,7 +4,7 @@ const SobreMim = (props) => {
   return (
     <div onClick={props.texto} id={styles.SobreMim}>
       <button>Sobre Mim</button>
-      <span></span>
+      <span>ksijhducndudncgsudhducxhshyshdhcduhdh</span>
       </div>
   )
 }

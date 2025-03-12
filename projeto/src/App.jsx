@@ -4,11 +4,16 @@ import Links from "./components/links/Links";
 import Footer from "./components/footer/Footer";
 import SocialLinks from "./components/socialLinks/SocialLinks"
 import SobreMim from "./components/sobreMim/SobreMim";
+import { useState } from "react";
 
 
 const App = () => {
-    return (
-      <div id="App">
+    
+        const App = () => {
+  function if texto  = useState(true) : useState = (false);
+        }
+  return (
+    <div id="App">
 
 <Perfil>@Ana Clara Chiaramonte Lopes</Perfil>
 <SobreMim  texto={"texto"} />

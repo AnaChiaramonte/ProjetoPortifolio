@@ -18,11 +18,12 @@
   
     
     & span {
+        text-align: center;
       display: block;
       width: 64px;
       height: 24px;
-      background: var(--surface-color);
-      border: 1px solid #fff;
+      background: #383838c6;
+      border: 1px solid #7f7f7f;
       border-radius: 999px;
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);
